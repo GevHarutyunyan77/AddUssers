@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.myHeader {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerUserSpan {
+  display: block;
+  width: 114px;
+  height: 52px;
+  text-align: center;
+  font-size: 28px;
+  border: 2px solid black;
+  border-radius: 16px;
+  line-height: 42px;
+  background-color: orange;
+  color: black;
+}
+
+.add:hover{
+  cursor: pointer;
+  background-color: #4190d1;
+  color: white;
+  box-shadow: -16px 10px 16px #4190d1;  
+}
+
+.add {
+  width: 160px;
+}
+
+
+.myMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+}
+
+.portfolioDiv {
+  margin-left: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 237px;
+  height: 328px;
+  margin-bottom: 20px;
+  border: 1px solid #794d4d ;
+  box-shadow: 0px 0px 22px #794d4d;
+}
+
+.blue:hover {
+  margin-top: -10px;
+  height: 338px;
+  box-shadow: 23px 16px 15px #4190d1;
+}
+
+.pink:hover {
+  margin-top: -10px;
+  height: 338px;
+  box-shadow: 23px 16px 15px #f514cf;
+}
+
+
+.firstDiv {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.iconsDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  width: 60px;
+  height: 38px;
+}
+
+.editDiv {
+  width: 22px;
+}
+
+.imageDiv {
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 96px;
+  height: 96px;
+  border-radius: 60px;
+}
+
+.modalImageDiv {
+
+  width: 130px;
+  height: 130px;
+}
+
+.myImage {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 70px;
+}
+
+
+.nameSpan {
+  color: #3b4292;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ceo {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.phoneNumberSpan {
+  font-size: 20px;
+  color: #09437e;
+}
+
+.addresSpan {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.modalMain {
+  border: 2px solid orange;
+  width: 500px;
+  min-height: 400px;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.modalSpans {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalLeftDiv {
+  height: 100%;
+  width: 366px;
+
+
+}
+
+.modalRightDiv {
+  width: 134px;
+  height: 100%;
+
+}
+
+.h1 {
+  color: coral;
+  text-align: center;
+  font-family: cursive;  
+}
+
+
+.simpleSpan {
+  line-height: 26px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.adress {
+  font-size: 15px;
+  color: grey;
+}
+
+.about {
+  border: 2px dotted grey;
+  width: 477px;
+  color: #b87171;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.aboutDiv {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  margin-left: 210px;
+  text-align: center;
+  background-color: coral;
+  width: 80px;
+  height: 30px;
+}
+
+.arrow_down {
+  margin-top: -1px;
+  margin-left: 217px;
+  width: 0;
+  height: 0;
+  border-left: 33px solid transparent;
+  border-right: 33px solid transparent;
+  border-top: 20px solid coral;
+}
+
+.checkline {
+  display: flex;
+}
+
+.x {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: coral;
+  color: white;
+}
+
+.modal_header2 {
+  width: 100%;
+  text-align: center;
+}
+
+.inputLine {
+  display: flex;
+  flex-direction: column;
+}
+
+.female {
+  margin-left: 20px;
+}
+
+.inputsStyle {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 350px;
+  padding-left: 10px;
+}
+
+.inputsStyle:focus {
+  background-color: #d7dcff;
+}
+.modal2Left{
+  width: 360px; 
+}
+
+.modal2Right{
+  width: 106px;
+  height: 200px;  
+}
+
+.main2 {
+  min-height: 400px;
+}
+
+.radioline {
+  font-size: 15px;
+}
+
+.textColor {
+  color: coral;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.a{
+  margin-left: 16px;
+}
+
+.my {
+  display: flex;
+}
+
+.myText {
+  width: 460px;
+  min-height: 50px;
+  border: 2px solid red;
+}
+.textarea{
+  padding-top: 5px;
+  padding-left: 5px;
+  line-height: 16px;
+  font-size: 14px;
+  width: 460px;
+  height: 82px; 
+}
+
+.textarea:focus{
+  background-color: #d7dcff;
+}
+
+.save{
+  border: 0px;
+  margin-top: 8px;
+  margin-right: 10px;
+  float: right  ;
+  width: 30px;
+  height: 30px;
+  background-image: url("save.ico");
+}
+
+
+.saveIcon{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.select{
+  width: 100px;
+}
